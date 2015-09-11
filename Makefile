@@ -1,2 +1,4 @@
 default:
-	gcc -c -fPIC -o test.o test.c && gcc -shared -o libtest.so test.o
+	gcc test.c -fPIC -shared -o libtest.so
+cpp:
+	gcc testcpp.cpp -fPIC -shared -o libtestcpp.so
