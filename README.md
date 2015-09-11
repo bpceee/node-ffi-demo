@@ -1,2 +1,3 @@
 # node-ffi-demo
-# node-ffi-demo
+
+linux only
